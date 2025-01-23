@@ -30,8 +30,6 @@ public class SkydiverGame extends Application {
         // Ajouter les formes au pane
         root.getChildren().addAll(mer,ball.getShape() , boat.getShape());
 
-
-
         //Déplacement de la raquette
         scene.setOnKeyPressed(event -> {
             switch (event.getCode()) {
